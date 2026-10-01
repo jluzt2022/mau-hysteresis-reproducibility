@@ -1,0 +1,21 @@
+﻿variable,description,unit_or_values,catchment,temporal_resolution,notes
+date,Timestamp for each 10-minute observation,DD/MM/YYYY HH:MM or M/D/YYYY H:MM as stored in the CSV,All catchments,10 min,Parsed by the reproducibility script using the Africa/Nairobi time zone.
+season,Hydroclimatic season assigned to each observation,Hot Dry Season; Long Rainy Season; Cool Dry Season; Short Rainy Season,All catchments,10 min,Categorical seasonal classification used in the analysis.
+NF.prec,Precipitation measured for the natural forest catchment,mm per 10 min,NF — Natural forest,10 min,Used for rainfall-event detection and event rainfall metrics.
+SHA.prec,Precipitation measured for the smallholder agriculture catchment,mm per 10 min,SHA — Smallholder agriculture,10 min,Used for rainfall-event detection and event rainfall metrics.
+TTP.prec,Precipitation measured for the tea/tree plantation catchment,mm per 10 min,TTP — Tea/tree plantation,10 min,Used for rainfall-event detection and event rainfall metrics.
+NF.q,Stream discharge for the natural forest catchment,m3 s-1,NF — Natural forest,10 min,"Used for discharge-event detection, hydrograph metrics, and C-Q hysteresis analysis."
+NF.nit,Nitrate concentration for the natural forest catchment,mg N L-1,NF — Natural forest,10 min,NO3-N concentration used in event-response and hysteresis analyses.
+NF.doc,Dissolved organic carbon concentration for the natural forest catchment,mg L-1,NF — Natural forest,10 min,DOC concentration used in event-response and hysteresis analyses.
+NF.elc,Electrical conductivity for the natural forest catchment,µS cm-1,NF — Natural forest,10 min,EC used as a conservative hydrochemical reference.
+NF.tss,Total suspended solids concentration for the natural forest catchment,mg L-1,NF — Natural forest,10 min,TSS concentration used in event-response and hysteresis analyses.
+SHA.q,Stream discharge for the smallholder agriculture catchment,m3 s-1,SHA — Smallholder agriculture,10 min,"Used for discharge-event detection, hydrograph metrics, and C-Q hysteresis analysis."
+SHA.nit,Nitrate concentration for the smallholder agriculture catchment,mg N L-1,SHA — Smallholder agriculture,10 min,NO3-N concentration used in event-response and hysteresis analyses.
+SHA.doc,Dissolved organic carbon concentration for the smallholder agriculture catchment,mg L-1,SHA — Smallholder agriculture,10 min,DOC concentration used in event-response and hysteresis analyses.
+SHA.elc,Electrical conductivity for the smallholder agriculture catchment,µS cm-1,SHA — Smallholder agriculture,10 min,EC used as a conservative hydrochemical reference.
+SHA.tss,Total suspended solids concentration for the smallholder agriculture catchment,mg L-1,SHA — Smallholder agriculture,10 min,TSS concentration used in event-response and hysteresis analyses.
+TTP.q,Stream discharge for the tea/tree plantation catchment,m3 s-1,TTP — Tea/tree plantation,10 min,"Used for discharge-event detection, hydrograph metrics, and C-Q hysteresis analysis."
+TTP.nit,Nitrate concentration for the tea/tree plantation catchment,mg N L-1,TTP — Tea/tree plantation,10 min,NO3-N concentration used in event-response and hysteresis analyses.
+TTP.doc,Dissolved organic carbon concentration for the tea/tree plantation catchment,mg L-1,TTP — Tea/tree plantation,10 min,DOC concentration used in event-response and hysteresis analyses.
+TTP.elc,Electrical conductivity for the tea/tree plantation catchment,µS cm-1,TTP — Tea/tree plantation,10 min,EC used as a conservative hydrochemical reference.
+TTP.tss,Total suspended solids concentration for the tea/tree plantation catchment,mg L-1,TTP — Tea/tree plantation,10 min,TSS concentration used in event-response and hysteresis analyses.
