@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite the associated manuscript and the archived Zenodo release."
+message: "If you use this software, please cite the associated manuscript and the archived dataset/software record."
 title: "R code for Hysteresis metrics reveal land-use-dependent stormflow constituent dynamics in tropical Afromontane catchments"
 version: "1.0.0"
 type: software
@@ -15,13 +15,13 @@ authors:
 repository-code: "https://github.com/jluzt2022/mau-hysteresis-reproducibility"
 
 abstract: >
-  R code supporting the reproducibility of the manuscript
+  R code supporting reproducibility of the manuscript
   "Hysteresis metrics reveal land-use-dependent stormflow constituent dynamics
-  in tropical Afromontane catchments". The default public workflow reproduces
-  publication-specific analyses, tables, and figures from processed and derived
-  datasets archived separately in Zenodo. The original 10-minute monitoring
-  workflow is retained for provenance but requires authorized access to the
-  non-public source dataset.
+  in tropical Afromontane catchments". The workflow starts from the cleaned
+  10-minute hydro-meteorological and hydrochemical dataset used in the study
+  for 2015-2020 and reproduces event detection, hysteresis and flushing metrics,
+  multivariate response clustering, statistical analyses, tables, figures,
+  and publication-output audits.
 
 keywords:
   - hysteresis
