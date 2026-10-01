@@ -1,7 +1,11 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite the associated manuscript and the archived dataset/software record."
+
+message: "If you use this software, please cite the associated manuscript, software repository, and archived dataset."
+
 title: "R code for Hysteresis metrics reveal land-use-dependent stormflow constituent dynamics in tropical Afromontane catchments"
+
 version: "1.0.0"
+
 type: software
 
 authors:
@@ -34,3 +38,16 @@ keywords:
   - R
 
 license: MIT
+
+references:
+  - type: dataset
+    title: "10-minute hydro-meteorological and hydrochemical data for storm-event hysteresis analysis in South-West Mau, Kenya (2015–2020)"
+    authors:
+      - family-names: "Tabo"
+        given-names: "Zadoki"
+      - family-names: "Jacobs"
+        given-names: "Suzanne R."
+      - family-names: "Breuer"
+        given-names: "Lutz"
+    doi: "10.5281/zenodo.23078064"
+    year: 2026
